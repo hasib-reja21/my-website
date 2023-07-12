@@ -270,8 +270,28 @@ header.sticky{
     letter-spacing: 1px;
     background: #ffffff99;
     color: var(--text-color);
+   
 }
 .box:hover{
     transform: translateY(-8px);
     cursor: pointer;
+    border: 1px solid #435055;
+}
+/* protfolio section*/
+.portfolio-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px,auto));
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 5rem;
+}
+.row{
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.row img{
+    height: 500px;
+    width: 100%;
 }
